@@ -1,0 +1,27 @@
+{
+    "name": "jag/gitjag",
+    "description": "A lightweight package to execute git commands",
+    "keywords": [
+        "jagwarthegreat",
+        "jag",
+        "php git"
+    ],
+    "homepage": "https://github.com/jagwarthegreat/gitjag",
+    "authors": [
+        {
+            "name": "Jagwarthegreat",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.4"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "jag\\gitjag\\": "src"
+        }
+    }
+}
