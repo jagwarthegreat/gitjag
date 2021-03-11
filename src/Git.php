@@ -116,10 +116,10 @@ class Git
 		return $output;
 	}
 
-	public function commit($message = "", $file = ".")
+	public function commit($message = "")
 	{
 		$commitMessage = ($message == "") ? "" : "-m $message";
-		$command = $this->git . "commit $commitMessage $file";
+		$command = $this->git . "commit $commitMessage";
 		$output = $this->runCommand($command);
 
 		return $output;
