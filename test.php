@@ -3,4 +3,4 @@
 include "src/Git.php";
 
 $git = new Git;
-print_r($git->branch());
+print_r($git->push());

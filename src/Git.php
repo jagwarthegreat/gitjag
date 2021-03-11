@@ -124,4 +124,12 @@ class Git
 
 		return $output;
 	}
+
+	public function push()
+	{
+		$command = $this->git . "push";
+		$output = $this->runCommand($command);
+
+		return $output;
+	}
 }
